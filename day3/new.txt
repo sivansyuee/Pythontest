@@ -1,0 +1,13 @@
+frontend syuee.com
+        bind 0.0.0.0:80
+        option httplog
+        option httplog
+        option forwardfor
+        log global
+        acl www hdr_reg(host)   -i
+
+
+backend  www.syuee.com
+        server 100.1.7.9 100.1.7.9 weight 20 maxconn 3000
+backend  www.tesla.com
+        server 100.1.7.9 100.1.7.9 weight 20 maxconn 3000
