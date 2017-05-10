@@ -1,0 +1,43 @@
+类型 	    描述
+Number 	    在JavaScript中的双精度浮点格式
+String 	    双引号的反斜杠转义的Unicode
+Boolean 	true 或 false
+Array 	    值的有序序列
+Value 	    它可以是一个字符串，一个数字，真的还是假（true/false），空(null )等
+Object 	    无序集合键值对
+Whitespace 	可以使用任何一对中的令牌
+null 	     empty
+
+
+ 数字
+
+    这是一个双精度浮点格式在JavaScript中，这取决于执行
+
+    八进制和十六进制格式不被使用。
+
+    非NaN或无穷大用数字
+
+以下的表格显示数字类型：
+类型 	描述
+Integer 	Digits 1-9, 0 and positive or negative
+Fraction 	Fractions like .3, .9
+Exponent 	Exponent like e, e+, e-,E, E+, E
+
+
+ 字符串
+
+    这是一个零个或多个双引号的Unicode字符用反斜杠转义序列。
+
+    字符是一个字符串，即字符串长度为1
+
+该表显示字符串类型：
+类型 	描述
+" 	double quotation
+	reverse solidus
+/ 	solidus
+b 	backspace
+f 	form feed
+n 	new line
+r 	carriage return
+t 	horizontal tab
+u 	four hexadecimal digits
